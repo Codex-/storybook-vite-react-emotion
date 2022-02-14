@@ -1,0 +1,28 @@
+{
+  "name": "storybook-vite-react-emotion",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook",
+    "build-storybook": "build-storybook"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-links": "^6.4.19",
+    "@storybook/react": "^6.4.19",
+    "storybook-builder-vite": "^0.1.15",
+    "typescript": "^4.5.5",
+    "vite": "2.8.1"
+  }
+}
